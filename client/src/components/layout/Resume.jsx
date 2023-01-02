@@ -22,6 +22,7 @@ export default function Resume() {
       <Box
         sx={{
           position: "relative",
+          marginTop:"5rem",
           width: "100%",
           height: "30rem",
           display: "flex",
@@ -29,6 +30,7 @@ export default function Resume() {
           alignItems: "center",
           justifyContent: "space-evenly",
           backgroundColor: "#202230",
+          boxShadow:"1px 0px 10px  rgba(0, 0, 0, 0.5)",
           [theme.breakpoints.down("tablet")]: {
             flexDirection: "column",
             height: "55rem",
