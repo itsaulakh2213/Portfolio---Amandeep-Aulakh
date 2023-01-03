@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { NavLink,} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
   AppBar,
   Button,
@@ -11,7 +11,6 @@ import {
 } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import MenuIcon from "@mui/icons-material/Menu";
-
 
 export default function Navbar() {
   const theme = useTheme();
@@ -29,9 +28,9 @@ export default function Navbar() {
       paddingY: ".2rem",
       marginY: ".2rem",
       color: "aliceblue",
-    }
+    },
   };
- 
+
   return (
     <Fragment>
       <AppBar
@@ -44,19 +43,18 @@ export default function Navbar() {
           <Typography
             sx={{
               flexGrow: 1,
-              fontFamily:'Josefin Sans',
-              fontSize:"1.2rem",
+              fontFamily: "Josefin Sans",
+              fontSize: "1.2rem",
               textDecoration: "none",
               fontWeight: "700",
-              letterSpacing:".1rem",
+              letterSpacing: ".1rem",
               color: "aliceblue",
             }}
           >
             Amandeep Aulakh
           </Typography>
           <Box sx={boxContainer}>
-            <Button sx={BtnCss} color="inherit" 
-            component={NavLink} to="/">
+            <Button sx={BtnCss} color="inherit" component={NavLink} to="/">
               Home
             </Button>
             <Button
@@ -80,7 +78,6 @@ export default function Navbar() {
               color="inherit"
               component={NavLink}
               to="/contact"
-              
             >
               Contact
             </Button>
@@ -113,11 +110,10 @@ export default function Navbar() {
                 paddingTop: ".5rem",
                 [theme.breakpoints.down("sm")]: {
                   width: "10rem",
-                }
+                },
               }}
             >
-     
-              <Button sx={BtnCss}  color="inherit" component={NavLink} to="/">
+              <Button sx={BtnCss} color="inherit" component={NavLink} to="/">
                 Home
               </Button>
               <Button sx={BtnCss} component={NavLink} to="/portfolio">

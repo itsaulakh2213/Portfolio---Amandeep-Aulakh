@@ -8,6 +8,7 @@ import "./Home.css";
 import { createTheme } from "@mui/material/styles";
 import Resume from "../layout/Resume";
 import Service from "../layout/Service";
+import Footer from "../layout/Footer";
 
 export default function Home() {
   const theme = createTheme({
@@ -114,8 +115,9 @@ export default function Home() {
           />
         </Box>
       </Box>
-      <Resume/>
-      <Service/>
+      <Resume />
+      <Service />
+      <Footer />
     </Fragment>
   );
 }

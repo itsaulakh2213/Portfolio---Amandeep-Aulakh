@@ -1,32 +1,28 @@
-
-
 * {
   margin: 0rem;
   padding: 0rem;
- 
 }
 
 body {
   margin: 0rem;
   padding: 0rem;
-  background-color: #23263A;
-  font-family: 'Josefin Sans', sans-serif;
+  background-color: #23263a;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .active {
   border-bottom: 2px solid #f3aa0d !important ;
   border-radius: 0rem !important ;
-  padding-bottom: .2rem !important; 
+  padding-bottom: 0.2rem !important;
   color: aliceblue !important;
 }
 
-@media screen and  (max-width:900px) {
+@media screen and (max-width: 900px) {
   .active {
     background-color: #0000006b !important;
-    width:100% !important;
+    width: 100% !important;
     border: none !important;
     border-radius: 0rem !important ;
     color: #e6c06d !important;
   }
-  
 }
