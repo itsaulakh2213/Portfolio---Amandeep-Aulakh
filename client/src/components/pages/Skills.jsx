@@ -26,7 +26,7 @@ export default function Skills() {
     width: "15rem",
     margin: "2rem 4rem",
     height: "15rem",
-    backgroundColor: "#202230",
+    backgroundColor: "aliceblue",
     boxShadow: "5px 5px 10px  rgba(0, 0, 0, 0.3)",
   };
   return (
